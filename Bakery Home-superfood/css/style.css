@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    /* border: 2px solid red; */
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img,
+video {
+    object-fit: cover;
+}
+
+
+
+.signika {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "GRAD" 0;
+}
+
+.navbar-brand {
+    width: 130px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-icons {
+    color: black;
+}
+
+.nav-icons:hover {
+    color: #E59B4F;
+}
+
+.hero-section {
+    top: 0;
+}
+
+.carousel-img1 {
+    background-image: url(../images/Bakery-Home-Slide-2-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.carousel-img2 {
+    background-image: url(../images/Bakery-Home-Slide-3-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.carousel-img3 {
+    background-image: url(../images/Bakery-Home-Slide-1-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.carousel-text {
+    padding-left: 22%;
+    padding-right: 25%;
+}
+
+.fixed-1 {
+    position: fixed;
+    bottom: 200px;
+    right: 0;
+    font-size: 14px;
+}
+.fixed-2 {
+    position: fixed;
+    bottom: 150px;
+    right: 0;
+    font-size: 14px;
+}
+.buy-now {
+    font-size: 14px;
+}
+
+.only-the-best {
+    background-color: #F7F5F2;
+}
+
+.padd {
+    padding: 40px;
+}
+
+.mansonry {
+    background-image: url(../images/bakery-background1.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1750px;
+}
+
+.mann-text {
+    padding: 30px;
+}
+
+.addtocart {
+    font-size: 12px;
+    background-color: coral;
+}
+
+.design-text {
+    padding: 30px;
+}
+
+.addtocart2 {
+    font-size: 12px;
+    background-color: #FFFFFF;
+}
+
+.blog-img-one {
+    background-image: url(../images/bakery-client1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-one:hover {
+    background-image: url(../images/bakery-client1-2.png);
+}
+
+.blog-img-two {
+    background-image: url(../images/bakery-client2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-two:hover {
+    background-image: url(../images/bakery-client2-2.png);
+}
+
+.blog-img-three {
+    background-image: url(../images/bakery-client3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-three:hover {
+    background-image: url(../images/bakery-client3-2.png);
+}
+
+.blog-img-four {
+    background-image: url(../images/bakery-client4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-four:hover {
+    background-image: url(../images/bakery-client4-2.png);
+}
+
+.blog-img-five {
+    background-image: url(../images/bakery-client5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-five:hover {
+    background-image: url(../images/bakery-client5-2.png);
+}
+
+.blog-img-six {
+    background-image: url(../images/bakery-client6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-six:hover {
+    background-image: url(../images/bakery-client6-2.png);
+}
+
+.blog-img-seven {
+    background-image: url(../images/bakery-client7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-seven:hover {
+    background-image: url(../images/bakery-client7-2.png);
+}
+
+.blog-img-eight {
+    background-image: url(../images/bakery-client8-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 130px;
+    width: 100%;
+}
+
+.blog-img-eight:hover {
+    background-image: url(../images/bakery-client8.png);
+}
+
+.gallery {
+    background-color: #F7F5F2;
+}
+
+.view-all-works {
+    font-size: 12px;
+    color: grey;
+}
+
+.view-all-works:hover {
+    color: #E59B4F;
+}
+
+.footer-section {
+    background-color: #363636;
+}
+
+.submit {
+    font-size: 12px;
+    background-color: coral;
+    color: white;
+    transition: 0.7s ease-in-out;
+}
+
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+
+.social-icons {
+    color: grey;
+}
+
+.social-icons:hover {
+    color: white;
+}
+
+.footer-logo {
+    width: 130px;
+}
+
+@media (min-width:768px) {
+    .carousel-heading {
+        font-size: 100px;
+    }
+
+    .padd {
+        padding: 100px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .carousel-img1,
+    .carousel-img2,
+    .carousel-img3 {
+        height: 950px;
+    }
+
+    .imgone {
+        height: 600px;
+    }
+
+    .padd {
+        padding: 35px 70px;
+    }
+
+    .mann-text {
+        margin-top: 140px;
+        margin-right: 16%;
+        height: 340px;
+        width: 480px;
+    }
+
+    .design-text {
+        margin-top: 250px;
+        margin-left: 15%;
+        height: 350px;
+        width: 450px;
+    }
+
+}
